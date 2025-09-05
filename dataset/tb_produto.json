@@ -1,0 +1,26 @@
+{
+	"name": "tb_produto",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Bloborigemrm554613",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "tabelasDburger"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "tbproduto",
+				"container": "origemoraclerm554613"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
